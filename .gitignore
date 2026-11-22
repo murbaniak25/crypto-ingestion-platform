@@ -1,0 +1,23 @@
+#python
+__pycache__/
+*.py[cod]
+
+#virtual environments
+.venv/
+
+#IDE
+.idea/
+
+#env
+.env
+.env.*
+!.env.example
+
+#tool caches
+.pytest_cache/
+.ruff_cache/
+
+#build artifacts
+*.egg-info/
+build/
+dist/
